@@ -35,5 +35,6 @@ dependencies {
     compile "io.ktor:ktor-auth:$ktor_version"
     compile "io.ktor:ktor-html-builder:$ktor_version"
     compile "io.ktor:ktor-jackson:$ktor_version"
+    compile "org.xerial:sqlite-jdbc:3.21.0.1"
     testCompile "io.ktor:ktor-server-tests:$ktor_version"
 }
